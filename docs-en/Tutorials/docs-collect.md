@@ -1,7 +1,7 @@
 
 
 
-## **Blockchain(Ontology Node)**
+## Ontology
 
 * MainNet(http://dappnode1.ont.io)
 * TestNet(http://polaris1.ont.io)
@@ -23,7 +23,7 @@
 * [DDXF](https://github.com/ontio/ontology-ddxf)
 * [Ontology test](https://github.com/ontio/ontology-test)
 
-## **Smart Contract(compile,deploy,invoke,debug,test)**
+## Smart Contract
 
 * [Tutorial](https://ontio.github.io/documentation/Introduction_of_Ontology_Smart_Contract_en.html)
 * [Smart contract](https://github.com/ontio/ontology-smartcontract)
@@ -37,7 +37,7 @@
 * [ontology-sctf](https://github.com/ontio-community/ontology-sctf)
 * [ontology-ts-debugger](https://github.com/trueinsider/ontology-ts-debugger)
 
-## **SDKs and dAPI**
+## SDKs and dAPI
 
 * [Java SDK](https://github.com/ontio/ontology-java-sdk)， [Typescript SDK](https://github.com/ontio/ontology-ts-sdk)， [Python SDK](https://github.com/ontio/ontology-python-sdk) ， [Golang SDK](https://github.com/ontio/ontology-go-sdk)
 * [dAPI tutorial_](https://ontio.github.io/documentation/ontology_dapp_dev_tutorial_en.html)
@@ -47,7 +47,7 @@
 * [Android wallet integration](https://ontio.github.io/documentation/ontology_wallet_dev_android_en.html)
 
 
-## **Tools**
+## Tools
 
 * [ONTO](https://github.com/punica-box/)
 * [OWallet](https://github.com/ontio/OWallet)
@@ -56,12 +56,12 @@
 * [punica box](https://github.com/punica-box/)
 
 
-## **Decentralized Storage (IPFS)**
+## Decentralized Storage
 
 * [IPFS](https://github.com/ChainBook/IPFS-For-Chinese)
 * [IPFS python sdk](https://github.com/lucas7788/workingdata/tree/master/ipfs)
 
-## **Web Technologies**
+
 
 
 
