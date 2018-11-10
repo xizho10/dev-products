@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+    alias: {
+        '/.*/_navbar.md': '/_navbar.md',
+        '/zh-cn/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-cn/$1',
+        '/ko-ko/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-ko/$1',
+        '/jp-jp/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-jp/$1'
+      },
+      notFoundPage: '_404.html',
+      auto2top: true,
+      basePath: '/docs',
+      executeScript: true,
+      loadNavbar: true,
+      loadSidebar: true,
+      coverpage: false,
+      name: 'Ontology DApp Toolkits',
+      subMaxLevel: 2,
+      mergeNavbar: true,
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (html) {
+            var url
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master')
+            } else {
+              url = 'https://github.com/docsifyjs/docsify/blob/master/' + vm.route.file
+            }
+            var editHtml = '[:memo: Edit Document](' + url + ')\n'
+            return editHtml
+              + html
+              + '\n\n----\n\n'
+              + 'Last modified {docsify-updated} '
+              + editHtml
+          })
+        }
+      ]
+    }
+
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+<script src="//unpkg.com/docsify"></script>
+<script src="/lib/docsify.js"></script>
+</body>
+</html>
