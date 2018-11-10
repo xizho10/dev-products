@@ -1,5 +1,5 @@
 - Site Language  
-  - [:uk: English](/docs-en)
+  - [:uk: English](/)
   - [:cn: 中文](/docs-cn/)
   - [:de: Deutsch](/de-de/)
   - [:es: Spanish](/es/)
