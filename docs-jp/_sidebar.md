@@ -32,3 +32,9 @@
   - [Overview of Sign-Server](docs-jp/SignServer/overview.md)
   - [Installation](docs-jp/SignServer/installation.md)
   - [Getting Started](docs-jp/SignServer/getting-started.md)
+
+- Ontology-API
+  - [Overview of Ontology-API](docs-jp/API/overview.md)
+  - [Rpc API](docs-jp/API/rpc_api.md)
+  - [Restful API](docs-jp/API/restful_api.md)
+  - [Websocket API](docs-jp/API/websocket_api.md)
