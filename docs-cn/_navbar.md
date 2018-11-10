@@ -1,6 +1,5 @@
-- Site Language  
+- 语言  
   - [:uk: English](/)
   - [:cn: 中文](/docs-cn/)
-  - [:de: Deutsch](/de-de/)
-  - [:es: Spanish](/es/)
-  - [:ru: Russian](/ru/)
+  - [:ko: Korea](/docs-ko/)
+  - [:jp: Japan](/docs-jp/)
