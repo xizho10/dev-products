@@ -5,6 +5,7 @@
   - [Debug Smart Contract](docs-en/Tutorials/debug-a-Smart-Contract.md)
   - [Smart Contract](docs-en/Tutorials/smartcontract-template.md)
   - [Docs collection](docs-en/Tutorials/docs-collect.md)
+  - [Learning video](docs-en/Tutorials/learning-video.md)
 - Punica
   - [Overview of Punica](docs-en/Punica/punica.md)
   - [Punica-Cli](docs-en/Punica/punica-cli.md)

@@ -58,8 +58,8 @@
 
 **Decentralized Storage (IPFS)**
 
-* [IPFS实践文档](https://github.com/ChainBook/IPFS-For-Chinese)
-* [IPFS安装及python客户端调用](https://github.com/lucas7788/workingdata/tree/master/ipfs)
+* [IPFS](https://github.com/ChainBook/IPFS-For-Chinese)
+* [IPFS python sdk](https://github.com/lucas7788/workingdata/tree/master/ipfs)
 
 **Web Technologies**
 
