@@ -89,7 +89,7 @@ npm run build:prod
 
 You will get the packaged code under '/lib'
 
-## Built With
+### Built With
 
 * [TypeScript](https://www.typescriptlang.org/) - Used language
 * [Node.js](https://nodejs.org) - JavaScript runtime for building
