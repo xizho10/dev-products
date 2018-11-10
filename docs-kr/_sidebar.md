@@ -6,7 +6,6 @@
 
 - SmartX
   - [Overview of SmartX](docs-kr/SmartX/overview.md)
-  - [Quick Start](docs-kr/SmartX/quickstart.md)
   - [Getting Started](docs-kr/SmartX/getting-started.md)
 
 - Cyano Wallet

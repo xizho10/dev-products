@@ -14,7 +14,6 @@
 
 - SmartX
   - [Overview of SmartX](docs-en/SmartX/overview.md)
-  - [Quick Start](docs-en/SmartX/quickstart.md)
   - [Getting Started](docs-en/SmartX/getting-started.md)
 
 - Cyano Wallet
