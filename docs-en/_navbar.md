@@ -1,5 +1,5 @@
 - Site Language  
   - [:uk: English](/)
   - [:cn: 中文](/docs-cn/)
-  - [:ko: Korea](/)
+  - [:ko: Korea](/docs-ko/)
   - [:jp: Japan](/docs-jp/)
