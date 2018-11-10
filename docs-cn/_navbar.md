@@ -1,5 +1,5 @@
 - 语言  
   - [:uk: English](/)
   - [:cn: 中文](/docs-cn/)
-  - [:ko: Korea](/docs-kr/)
+  - [:kr: Korea](/docs-kr/)
   - [:jp: Japan](/docs-jp/)
