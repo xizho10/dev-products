@@ -1,5 +1,5 @@
-Korea
-<h1 align="center">Ontology Developer Guide</h1>
+
+<h1 align="center">Ontology Developer Guide(Korea)</h1>
 
 <p align="center" class="version">Version 1.0.0 </p> 
 
@@ -31,8 +31,7 @@ This documentation is an entry to the Ontology ecosystem for new Ontology develo
 - [Use Ontology](#use-ontology)
     - [Environment setup](#environment-setup)
     - [Contract writing, deployment and invocation](#contract-writing-deployment-and-invocation)
-    - [Development DAPP tutorial](#development-dapp-tutorial)
-    - [Wallet intergration tutorial](#wallet-intergration-tutorial)
+
 
 ## Ontology
 
@@ -313,10 +312,3 @@ Transaction states:
 F. In the returned result, States is the message information of the call contract notification. The returned value is a hexadecimal string. After conversion by the transcoder, the result is `tester`.
 
 
-### dApp development tutorial
-
-This tutorial will take you through the process of building your first dApp: [dApp Development Tutorial](https://ontio.github.io/documentation/ontology_dapp_dev_tutorial_en.html).
-
-### Wallet intergration tutorial
-
-These tutorials will take you through the process of intergrating ONT/ONG into your wallet: [Android](https://ontio.github.io/documentation/ontology_wallet_dev_android_en.html) and [iOS](https://ontio.github.io/documentation/ontology_wallet_dev_ts_sdk_en.html).

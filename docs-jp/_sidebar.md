@@ -1,3 +1,11 @@
+- Introduction
+  - [Introduction](docs-jp/Introduction/introduction.md)
+- Tutorials
+  - [DAPP Development](docs-jp/Tutorials/dapp_development.md)  
+  - [Debug Smart Contract](docs-jp/Tutorials/debug-a-Smart-Contract.md)
+  - [Smart Contract](docs-jp/Tutorials/smartcontract-template.md)
+  - [Docs collection](docs-jp/Tutorials/docs-collect.md)
+  - [Learning video](docs-jp/Tutorials/learning-video.md)
 - Punica
   - [Overview of Punica](docs-jp/Punica/punica.md)
   - [Punica-Cli](docs-jp/Punica/punica-cli.md)
