@@ -1,5 +1,5 @@
 - Punica
-  - [Overview of Punica](Punica/punica.md)
+  - [Overview of Punica](docs-cn/Punica/punica.md)
   - [Punica-Cli](Punica/punica-cli.md)
   - [Punica-Box](Punica/punica-box.md)
   - [Solo Chain](Punica/solo-chain.md)
