@@ -7,41 +7,41 @@
   - [Docs collection](docs-en/Tutorials/docs-collect.md)
   - [Learning video](docs-en/Tutorials/learning-video.md)
 - Punica
-  - [Overview of Punica](docs-en/Punica/punica.md)
+  - [Overview](docs-en/Punica/punica.md)
   - [Punica-Cli](docs-en/Punica/punica-cli.md)
   - [Punica-Box](docs-en/Punica/punica-box.md)
   - [Solo Chain](docs-en/Punica/solo-chain.md)
 
 - SmartX
-  - [Overview of SmartX](docs-en/SmartX/overview.md)
+  - [Overview](docs-en/SmartX/overview.md)
   - [Getting Started](docs-en/SmartX/getting-started.md)
 
 - Cyano Wallet
-  - [Overview of Cyano](docs-en/Cyano/overview.md)
+  - [Overview](docs-en/Cyano/overview.md)
   - [Installation](docs-en/Cyano/installation.md)
   - [Getting Started](docs-en/Cyano/getting-started.md)
 
 - SDKs
-  - [Overview of SDKs](docs-en/SDKs/SDKs.md)
+  - [Overview](docs-en/SDKs/SDKs.md)
   - [Wallet Integration](docs-en/SDKs/wallet-intergration.md)
 
 - DAPI
-  - [Overview of DAPI](docs-en/dApi/overview.md)
+  - [Overview](docs-en/dApi/overview.md)
   - [Quick Start](docs-en/dApi/quickstart.md)
   - [Getting Started](docs-en/dApi/getting-started.md)
 
 - Ontology-Cli
-  - [Overview of Ontology-Cli](docs-en/OntologyCli/overview.md)
+  - [Overview](docs-en/OntologyCli/overview.md)
   - [Installation](docs-en/OntologyCli/installation.md)
   - [Getting Started](docs-en/OntologyCli/getting-started.md)
 
 - Sign-Server
-  - [Overview of Sign-Server](docs-en/SignServer/overview.md)
+  - [Overview](docs-en/SignServer/overview.md)
   - [Installation](docs-en/SignServer/installation.md)
   - [Getting Started](docs-en/SignServer/getting-started.md)
 
 - Ontology-API
-  - [Overview of Ontology-API](docs-en/API/overview.md)
+  - [Overview](docs-en/API/overview.md)
   - [Rpc API](docs-en/API/rpc_api.md)
   - [Restful API](docs-en/API/restful_api.md)
   - [Websocket API](docs-en/API/websocket_api.md)
