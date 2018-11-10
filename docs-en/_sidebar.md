@@ -1,10 +1,10 @@
 - Introduction
   - [Introduction](docs-en/Introduction/introduction.md)
 - Tutorials
-  - [DAPP Development](docs-en/Introduction/dapp_development.md)  
-  - [Debug Smart Contract](docs-en/Introduction/debug-a-Smart-Contract.md)
-  - [Smart Contract](docs-en/Introduction/smartcontract-template.md)
-  - [Docs collection](docs-en/Introduction/docs-collect.md)
+  - [DAPP Development](docs-en/Tutorials/dapp_development.md)  
+  - [Debug Smart Contract](docs-en/Tutorials/debug-a-Smart-Contract.md)
+  - [Smart Contract](docs-en/Tutorials/smartcontract-template.md)
+  - [Docs collection](docs-en/Tutorials/docs-collect.md)
 - Punica
   - [Overview of Punica](docs-en/Punica/punica.md)
   - [Punica-Cli](docs-en/Punica/punica-cli.md)
