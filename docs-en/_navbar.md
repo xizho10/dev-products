@@ -1,6 +1,6 @@
 - Site Language  
   - [:uk: English](/docs-en)
-  - [:cn: 中文](/zh-cn/)
+  - [:cn: 中文](/docs-cn/)
   - [:de: Deutsch](/de-de/)
   - [:es: Spanish](/es/)
   - [:ru: Russian](/ru/)
