@@ -1,34 +1,34 @@
 - Punica
   - [Overview of Punica](docs-cn/Punica/punica.md)
-  - [Punica-Cli](Punica/punica-cli.md)
-  - [Punica-Box](Punica/punica-box.md)
-  - [Solo Chain](Punica/solo-chain.md)
+  - [Punica-Cli](docs-cn/Punica/punica-cli.md)
+  - [Punica-Box](docs-cn/Punica/punica-box.md)
+  - [Solo Chain](docs-cn/Punica/solo-chain.md)
 
 - SmartX
-  - [Overview of SmartX](SmartX/overview.md)
-  - [Quick Start](SignSmartXServer/quickstart.md)
-  - [Getting Started](SmartX/getting-started.md)
+  - [Overview of SmartX](docs-cn/SmartX/overview.md)
+  - [Quick Start](docs-cn/SignSmartXServer/quickstart.md)
+  - [Getting Started](docs-cn/SmartX/getting-started.md)
 
 - Cyano Wallet
-  - [Overview of Cyano](Cyano/overview.md)
-  - [Installation](Cyano/installation.md)
-  - [Getting Started](Cyano/getting-started.md)
+  - [Overview of Cyano](docs-cn/Cyano/overview.md)
+  - [Installation](docs-cn/Cyano/installation.md)
+  - [Getting Started](docs-cn/Cyano/getting-started.md)
 
 - SDKs
-  - [Overview of SDKs](SDKs/SDKs.md)
-  - [Wallet Integration](SDKs/wallet-intergration.md)
+  - [Overview of SDKs](docs-cn/SDKs/SDKs.md)
+  - [Wallet Integration](docs-cn/SDKs/wallet-intergration.md)
 
 - DAPI
-  - [Overview of DAPI](dApi/overview.md)
-  - [Quick Start](dApi/quickstart.md)
-  - [Getting Started](dApi/getting-started.md)
+  - [Overview of DAPI](docs-cn/dApi/overview.md)
+  - [Quick Start](docs-cn/dApi/quickstart.md)
+  - [Getting Started](docs-cn/dApi/getting-started.md)
 
 - Ontology-Cli
-  - [Overview of Ontology-Cli](OntologyCli/overview.md)
-  - [Installation](OntologyCli/installation.md)
-  - [Getting Started](OntologyCli/getting-started.md)
+  - [Overview of Ontology-Cli](docs-cn/OntologyCli/overview.md)
+  - [Installation](docs-cn/OntologyCli/installation.md)
+  - [Getting Started](docs-cn/OntologyCli/getting-started.md)
 
 - Sign-Server
-  - [Overview of Sign-Server](SignServer/overview.md)
-  - [Installation](SignServer/installation.md)
-  - [Getting Started](SignServer/getting-started.md)
+  - [Overview of Sign-Server](docs-cn/SignServer/overview.md)
+  - [Installation](docs-cn/SignServer/installation.md)
+  - [Getting Started](docs-cn/SignServer/getting-started.md)
