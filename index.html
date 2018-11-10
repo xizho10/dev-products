@@ -7,33 +7,13 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <style type="text/css">
- .header { position: fixed; height:60px; width:100%; padding:10px 20px; top:0; left:0;border-bottom:1px solid #dddddd; background:#ffffff; z-index:1000; }
- .sidebar {top:60px; margin-bottom: 60px;}
- .footer {
-  height: 60px; border-top: 1px solid #dddddd; background: #ffffff; z-index: 1000;
- }
- .content {position: relative; left:150px;}
- .sidebar-toggle {bottom:60px;}
- main {height:auto;}
-  </style>
 </head>
 <body>
-  <header class="header">
-    header here
-  </header>
-  <nav>
-    <ul>
-      <li>First nav</li>
-    </ul>
-  </nav>
-  <div id="app"></div>
-  <footer class="footer">
-    footer here
-  </footer>
-  <script>
+
+<div id="app"></div>
+<script>
     window.$docsify = {
-      alias: {
+    alias: {
         '/.*/_navbar.md': '/_navbar.md',
         '/docs-en/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-en/$1',
         '/docs-cn/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-cn/$1',
@@ -46,45 +26,37 @@
       executeScript: true,
       loadNavbar: true,
       loadSidebar: true,
-      autoHeader: true,
       coverpage: false,
       name: 'Ontology Developer',
       subMaxLevel: 2,
       mergeNavbar: true,
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      //search
-      search: {
-        placeholder: {
-          '/docs-cn/': '搜索',
-          '/docs-en/': 'Search',
-          '/docs-jp': 'Search',
-          '/docs-kr/': 'Search'
-        },
-        depth:3
-      }
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (html) {
+            var url
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master')
+            } else {
+              url = 'https://github.com/docsifyjs/docsify/blob/master/' + vm.route.file
+            }
+            var editHtml = '[:memo: Edit Document](' + url + ')\n'
+            return editHtml
+              + html
+              + '\n\n----\n\n'
+              + 'Last modified {docsify-updated} '
+              + editHtml
+          })
+        }
+      ]
     }
 
   </script>
-  <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 
-<!-- <script src="//unpkg.com/docsify"></script> -->
-<!-- <script src="/lib/docsify.js"></script> -->
-<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
-<script src="//unpkg.com/docsify-copy-code"></script>
-<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-csharp.min.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
-
-
+<script src="//unpkg.com/docsify"></script>
+<script src="/lib/docsify.js"></script>
 </body>
 </html>
