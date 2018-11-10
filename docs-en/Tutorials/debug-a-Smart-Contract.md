@@ -1,5 +1,5 @@
 
-## 1. Three different versions of SmartX
+## Versions of SmartX
 
 [SmartX](https://smartx.ont.io) is the officially released version that provides the most advanced features and stable development experience.  
 
@@ -7,9 +7,9 @@
 
 [SmartX debug](http://smartxdebug.ont.io) is the open-source community edition. Login function has been removed for more convenient development. 
 
-## 2. Start debugging
 
-### 2.1 Debug procedure
+
+## Debug procedure
 
 #### Step1 - Create a python project
 
@@ -52,7 +52,7 @@ From the left to the right:
 
 Continue(jump to the next breakpoint), Debug Stop, Step Over Line, Step Over Opcode, Clear (clear the window)
 
-### 2.2 Debug panel
+## Debug panel
 
 The panel displays basic information about the current smart contract.
 
@@ -73,7 +73,7 @@ Locals: display local variables associated with the current context.
 Storage:  the database of the smart contract
 
 
-### 2.3 Change parameters in console
+## Change parameters in console
 
 #### How to change variable
 

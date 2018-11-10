@@ -1,5 +1,5 @@
 
-## DAPP Development
+
 
 This tutorial will guide you through the process of creating a smart contract, deploying it to your private-net, testing and finally deploying it to the Ontology Mainnet. 
 
@@ -23,7 +23,7 @@ The following tools will be needed:
 <p><br>
 
 
-### Create and compile your smart contract in SmartX
+## Create and compile your smart contract in SmartX
 
 We will develop, compile and test our smart contract using the [SmartX](https://smartx.ont.io/) tool. If you are new to SmartX, please read over the [SmartX Tutorial](https://ontio.github.io/documentation/SmartX_Tutorial_en.html) which will guide you thorugh the process of using the tool.
 
@@ -36,7 +36,7 @@ Compile your smart contract but **do not deploy it yet**.
 
 <p><br>
 
-### Download and install solo-chain
+## Download and install solo-chain
 
 Solo-chain is a pre-built Ontology private-net which includes a number of tools to interact with and monitor the network.
 
@@ -48,7 +48,7 @@ Please make note of the IP address shown in the dashboard for later use.
 
 <p><br>
 
-### Install Cyano
+## Install Cyano
 
 Cyano wallet is a Google Chrome extension that is integrated with SmartX and allows developers to deploy/invoke smart contracts either on a private-net or the Ontology mainnet.
 
@@ -67,7 +67,7 @@ Next, import the private key of the main address from your solo-chain into Cyano
 Finally, initiate a transaction and claim your ONG which will be used to pay for transaction fees during deployment/invocation.
 <p><br>
 
-### Deploy smart contract in SmartX
+## Deploy smart contract in SmartX
 
 Once you are satisfied with your smart contract, you can use SmartX to deploy it to your private-net.  SmartX will interact with Cyano wallet in order to deploy and pay the transaction fee(s).
 
@@ -83,14 +83,14 @@ Cyano wallet will be launched and the smart contract deploy screen will be shown
 Enter your Cyano wallet password to deploy your smart contract.
 <p><br>
 
-### Check the smart contract has deployed successfully
+## Check the smart contract has deployed successfully
 
 You can verify the smart contract has been deployed correctly by clicking the Smart Contract icon in solo-chain which will show you the contract hash and information you entered in SmartX.
 
 ![Solo-chain SC list](https://raw.githubusercontent.com/ontio/documentation/master/docs/lib/images/solo-chain_SC_list.jpg)
 <p><br>
 
-### Invoke smart contract in SmartX
+## Invoke smart contract in SmartX
 
 The next step is to invoke your smart contract which is done in SmartX by selecting Run and selecting any methods (if applicable).  In this example we are using the 'Arith' template so we will be using the add method to add two numbers together.
 
@@ -106,7 +106,7 @@ The results of the invocation will be displayed in the log window of SmartX.
 <p><br>
 
 
-### Check invocation transction
+## Check invocation transction
 
 You can also use solo-chain to check the invoke function by selecting the Transactions tab and looking for a transaction type of Invoke.
 
@@ -118,7 +118,7 @@ More detailed information is available by clicking on the Detail link.
 <p><br>
 
 
-### Deploy to Mainnet 
+## Deploy to Mainnet 
 
 Once you have completed the above steps, you may wish to deploy your smart contract to the Ontology Mainnet for general purpose use.
 
