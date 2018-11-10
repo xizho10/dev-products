@@ -9,7 +9,7 @@ It is necessary to have installed suitable **dAPI provider** . Reference impleme
 The library is written in TypeScript, so all the methods and objects are typed. It is therefore usable in TypeScript projects as well as vanilla JavaScript projects.
 
 
-![architecture](https://raw.githubusercontent.com/backslash47/OEPs/oep-dapp-api/OEP-6/OEP-6-1.svg)
+![architecture](https://raw.githubusercontent.com/ontio-community/bounty-program-report/master/image/dapi.png)
 
 Reference:
 * [dAPI tutorial_](https://ontio.github.io/documentation/ontology_dapp_dev_tutorial_en.html)
