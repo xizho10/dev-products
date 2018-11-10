@@ -1,4 +1,3 @@
-English
 
 
 This documentation is an entry to the Ontology ecosystem for new Ontology developers, as well as experienced ones. 
