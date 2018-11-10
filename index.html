@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link type="favicon" rel="shortcut icon" href="assets/favicon.ico" />
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <style type="text/css">
        .header { position: fixed; height:60px; width:100%; padding:10px 20px; top:0; left:0;border-bottom:1px solid #dddddd;
@@ -49,7 +50,7 @@
 <div id="app"></div>
 <script>
     window.$docsify = {
-    alias: {
+      alias: {
         '/.*/_navbar.md': '/_navbar.md',
         '/docs-en/(.*)': 'https://raw.githubusercontent.com/ontio/documentation/master/dev-website-docs/docs-en/$1',
         '/docs-cn/(.*)': 'https://raw.githubusercontent.com/ontio/documentation/master/dev-website-docs/docs-cn/$1',
@@ -68,9 +69,9 @@
       subMaxLevel: 2,
       mergeNavbar: true,
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      //search
       search: {
         placeholder: {
-          '/':'Search',
           '/docs-cn/': '搜索',
           '/docs-en/': 'Search',
           '/docs-jp': 'Search',
