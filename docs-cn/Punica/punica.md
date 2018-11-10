@@ -3,7 +3,6 @@
   <img src="https://raw.githubusercontent.com/punicasuite/punica-python/master/punica.png" height="200" width="200"><br><br>
 </div>
 
-中文
 
 Punica is Ontology blockchain dApp development framework. Punica provides developers with a complete set of open-source development tools for dApps, including:
 * Punica:Punica-python,Punica-ts
