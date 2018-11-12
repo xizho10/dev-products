@@ -1,5 +1,10 @@
-- Introduction
-  - [Introduction](docs-en/Introduction/introduction.md)
+- Developer Guide
+  - [Developer Guide](docs-en/DeveloperGuide/developer-guide.md)
+  - [Contribution Guide](docs-en/DeveloperGuide/contributions-guide.md)
+  - [Installation](docs-en/DeveloperGuide/installation.md)
+  - [VBFT](docs-en/DeveloperGuide/VBFT-introduction.md)
+  - [ONTID](docs-en/DeveloperGuide/ontid.md)
+  - [White-papers](docs-en/DeveloperGuide/white-papers.md)
 - Tutorials
   - [DAPP Development](docs-en/Tutorials/dapp_development.md)  
   - [Debug Smart Contract](docs-en/Tutorials/debug-a-Smart-Contract.md)
@@ -22,7 +27,8 @@
   - [Getting Started](docs-en/Cyano/getting-started.md)
 
 - SDKs
-  - [Overview](docs-en/SDKs/SDKs.md)
+  - [Overview](docs-en/SDKs/overview.md)
+  - [Wallet File](docs-en/SDKs/wallet-file-specification.md)
   - [Wallet Integration](docs-en/SDKs/wallet-intergration.md)
 
 - DAPI
