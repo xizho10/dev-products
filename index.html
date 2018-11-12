@@ -51,14 +51,14 @@
     window.$docsify = {
     alias: {
         '/.*/_navbar.md': '/_navbar.md',
-        '/docs-en/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-en/$1',
-        '/docs-cn/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-cn/$1',
-        '/docs-kr/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-kr/$1',
-        '/docs-jp/(.*)': 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-jp/$1'
+        '/docs-en/(.*)': 'https://raw.githubusercontent.com/ontio/documentation/master/dev-website-docs/docs-en/$1',
+        '/docs-cn/(.*)': 'https://raw.githubusercontent.com/ontio/documentation/master/dev-website-docs/docs-cn/$1',
+        '/docs-kr/(.*)': 'https://raw.githubusercontent.com/ontio/documentation/master/dev-website-docs/docs-kr/$1',
+        '/docs-jp/(.*)': 'https://raw.githubusercontent.com/ontio/documentation/master/dev-website-docs/docs-jp/$1'
       },
       notFoundPage: '_404.html',
       auto2top: true,
-      basePath: 'https://raw.githubusercontent.com/xizho10/dev-products/master/docs-en',
+      basePath: 'https://raw.githubusercontent.com/ontio/documentation/master/dev-website-docs/docs-en',
       executeScript: true,
       loadNavbar: true,
       loadSidebar: true,
@@ -77,7 +77,31 @@
           '/docs-kr/': 'Search'
         },
         depth:3
-      }
+      },
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (html) {
+            var url
+            console.log("####"+JSON.stringify(vm.route));
+            if (/githubusercontent\.com/.test(vm.route.path+".md")) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master/dev-website-docs')
+            } else {
+              if(vm.route.path.indexOf("/docs-") > -1 && vm.route.path.substr(-1,1) == "/"){
+                vm.route.path = vm.route.path + "README";
+              }else if(vm.route.path == "/"){
+                vm.route.path = vm.route.path + "docs-en/README";
+              }
+              url = 'https://github.com/ontio/documentation/blob/master/dev-website-docs' + vm.route.path+".md"
+              console.log("####"+url);
+            }
+            var editHtml = '[:memo: Edit Document](' + url + ')\n'
+            return editHtml
+              + html
+          })
+        }
+      ]
     }
 
   </script>
